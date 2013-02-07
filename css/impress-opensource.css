@@ -208,6 +208,16 @@ a:focus {
     font-size: 150px;
 }
 
+#frontpage i.icon-heart-empty {
+    color: #C77966;
+}
+
 #frontpage p {
+    text-align: center;
+}
+
+#money {
+    background-color: #2F343B;
+    font-size: 250px;
     text-align: center;
 }

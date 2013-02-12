@@ -251,6 +251,17 @@ a:focus {
     color: #C77966;
 }
 
+.example {
+    font-size: 50px;
+}
+
+#what-else {
+    font-size: 80px;
+}
+
+#what-else i {
+    padding-right: 30px;
+}
 
 #money {
     background-color: #2F343B;

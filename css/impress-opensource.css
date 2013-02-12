@@ -168,6 +168,11 @@ a:focus {
     display: none;
 }
 
+/*
+    Now let's style the presentation steps.
+
+    We start with basics to make sure it displays correctly in everywhere ...
+*/
 .step {
     position: relative;
     width: 900px;
@@ -183,6 +188,23 @@ a:focus {
     font-size: 48px;
     line-height: 1.5;
 }
+/*
+    ... and we enhance the styles for impress.js.
+
+    Basically we remove the margin and make inactive steps a little bit transparent.
+*/
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1 }
 
 #fontpage {
     text-align: center;
@@ -216,8 +238,26 @@ a:focus {
     text-align: center;
 }
 
+#what {
+    font-size: 80px;
+}
+
+#what i {
+    padding-right:30px;
+
+}
+
+#what i.icon-heart {
+    color: #C77966;
+}
+
+
 #money {
     background-color: #2F343B;
     font-size: 250px;
+    text-align: center;
+}
+
+#not-only p {
     text-align: center;
 }

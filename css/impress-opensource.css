@@ -316,20 +316,70 @@ a:focus {
     font-size: 50px;
 }
 
+
 #what-else {
-    font-size: 80px;
+    font-size: 110px;
 }
 
 #what-else i {
     padding-right: 30px;
 }
 
+#kesako {
+    text-align: center;
+    font-size: 60px;
+}
+
+#kesako span {
+    color: #7E827A;
+}
+
+#kesako h1 {
+    font-weight: bold;
+}
+
+#kesako h2 {
+    font-style: italic;
+    padding-bottom: 100px;
+}
+
+#kesako2 i {
+    padding-right: 15px;
+    color: #C77966;
+}
+
+#kesako2 {
+    font-size: 60px;
+}
+
+#utopia {
+    font-size: 80px;
+}
+
+#utopia p {
+    text-align:right;
+}
+
+#utopia i.icon-heart {
+    color: #C77966;
+}
+
+#utopia i.icon-tint {
+    color: #8B939D;
+}
+
 #money {
     background-color: #2F343B;
-    font-size: 250px;
     text-align: center;
 }
 
-#not-only p {
-    text-align: center;
+#money i {
+    color: #E3CDA4;
+    padding: 0 5px 0 5px;
+    font-size: 70px;
 }
+
+#money div {
+    height: 100px;
+}
+

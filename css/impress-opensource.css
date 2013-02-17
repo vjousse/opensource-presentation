@@ -383,3 +383,46 @@ a:focus {
     height: 100px;
 }
 
+#thanks {
+    text-align:center;
+    font-size: 120px;
+}
+
+#thanks ul {
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+#one-more-thing p {
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+
+#one-more-thing i {
+    color: #E3CDA4;
+    font-size: 30px;
+}
+
+#one-more-thing .icon-quote-left {
+    padding-right: 20px;
+    vertical-align: super;
+}
+
+#one-more-thing .icon-quote-right {
+    padding-left: 20px;
+    vertical-align: super;
+}
+
+#one-more-thing .quote {
+    text-align: center;
+}
+
+#one-more-thing li {
+    font-size: 45px;
+}
+#one-more-thing li a {
+    font-size: 30px;
+}
+#one-more-thing li span {
+    display: block;
+}

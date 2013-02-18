@@ -385,20 +385,54 @@ a:focus {
 
 #economic-models h1 {
     font-size: 50px;
+    font-weight: bold;
 }
 
-#service h1, #valeur h1, #selling-licenses h1, #feedback h1 {
+.eco h1 {
     font-weight: bold;
     font-size: 70px;
     padding-bottom: 20px;
 }
 
-#service span, #valeur span, #selling-licenses span, #feedback span {
+.eco span {
     font-style: italic;
 }
 
-#service ul, #valeur ul, #selling-licenses ul, #feedback ul {
+.eco ul {
     font-size: 40px;
+}
+
+#it-works h1 {
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+
+#it-works i {
+    color: #E3CDA4;
+    font-size: 30px;
+}
+
+#it-works .icon-quote-left {
+    padding-right: 20px;
+    vertical-align: super;
+}
+
+#it-works .icon-quote-right {
+    padding-left: 20px;
+    vertical-align: super;
+}
+
+#it-works {
+    text-align: center;
+}
+
+#it-works p {
+    font-size: 40px;
+
+}
+
+#it-works span {
+    color: #C77966;
 }
 
 #one-more-thing p {

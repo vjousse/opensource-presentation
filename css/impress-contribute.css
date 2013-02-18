@@ -10,6 +10,10 @@
 
 */
 
+.pink {
+    color: #c77966;
+}
+
 /*
     Because the main point behind the impress.js demo is to demo impress.js
     we display a fallback message for users with browsers that don't support
@@ -299,6 +303,17 @@ a:focus {
     transition-delay:         0.25s;
 }
 
+h1 {
+    font-weight: bold;
+}
+
+#visible h1 {
+    padding-bottom: 60px;
+}
+
+#visible i {
+    padding-right: 20px;
+}
 
 #one-more-thing p {
     font-size: 100px;

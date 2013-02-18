@@ -383,6 +383,24 @@ a:focus {
     height: 100px;
 }
 
+#economic-models h1 {
+    font-size: 50px;
+}
+
+#service h1, #valeur h1, #selling-licenses h1, #feedback h1 {
+    font-weight: bold;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+#service span, #valeur span, #selling-licenses span, #feedback span {
+    font-style: italic;
+}
+
+#service ul, #valeur ul, #selling-licenses ul, #feedback ul {
+    font-size: 40px;
+}
+
 #one-more-thing p {
     font-size: 100px;
     padding-bottom: 40px;
